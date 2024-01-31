@@ -1,0 +1,240 @@
+.showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: url('../images/main1.jpg') no-repeat center center/cover;
+    padding: 20px;
+    
+}
+
+.home-container{
+    overflow-x: hidden;
+}
+
+.he {
+    color: white;
+    font-size: 60px;
+    margin-top: -50px;
+}
+
+.subtext {
+    margin-top: -30px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.main-btn {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.cpyr {
+    margin-top: auto;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+
+.main-btn:hover {
+    background-color: #aa0491;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.subtext{
+    margin-top: -30px;
+    color: white;
+    font-size: 1.4rem;
+    font-family: cursive;
+}
+
+.features {
+    background-color: #32475B;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.feature {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(44, 62, 76, 0.95);
+    text-align: center;
+    height: 350px;
+    width: 300px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature h2 {
+    color:#3498db;
+    font-family: 'Courier New', Courier, cursive;
+    font-size: 2.2rem; /* Adjust the font size as needed */
+}
+
+.feature p {
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: #f9f9f9;
+}
+
+
+
+
+
+.home-banner-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    margin-top: -40px;
+    background: url('../images/banner-background.jpg') no-repeat right center/cover;
+    overflow-x: hidden;
+}
+
+.home-bannerImage-container {
+    position: absolute;
+    top: 50%;
+    right: -10rem; 
+    transform: translateY(-50%);
+    z-index: -2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2); 
+    pointer-events: none;
+}
+
+.ii {
+    border-radius: 990px; 
+    max-width: 100%;
+    height: 550px;
+    width: 550px;
+    display: block;
+}
+
+
+
+.home-image-section {
+    flex: 1;
+}
+
+.ib{
+    margin-left: 180px;
+    height: 450px;
+}
+
+.home-text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.primary-heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: #4c4c4c;
+    max-width: 600px;
+}
+
+.primary-text {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    max-width: 500px;
+    color: #6a6a6a;
+    margin: 1.5rem 0rem;
+}
+
+.secondary-button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.secondary-button:hover {
+    background-color: #aa0491;
+}
+
+@media screen and (max-width: 768px) {
+    .showcase {
+        height: auto;
+    }
+
+    .he {
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    .main-btn {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .home-banner-container {
+        padding: 2rem;
+        background-size: cover;
+    }
+
+    .ii {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .home-image-section,
+    .home-text-section {
+        width: 100%;
+        order: 0;
+    }
+
+    .ib {
+        margin: 20px 0;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .primary-heading,
+    .primary-text {
+        max-width: 100%;
+    }
+}

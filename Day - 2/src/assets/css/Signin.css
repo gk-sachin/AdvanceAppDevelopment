@@ -1,0 +1,181 @@
+.lt {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    color: #fff;
+    margin: 0;
+  }
+
+.round1 {
+    position: relative;
+  }
+  
+  
+  .copyright {
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #888;
+    font-size: 0.8rem;
+  }
+  
+  
+  .round1  {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 400px;
+    text-align: left; /* Align text to the left */
+    max-width: 80%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form items vertically */
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3498db;
+  }
+  
+  .mb-2 {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+
+  .form-control[name="name"],
+  .form-control[name="email"] {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .form-control {
+    width: 93%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #555;
+    border: 1px solid #f8f3f3; /* Add a border */
+    box-sizing: border-box;
+  }
+  
+  .form-control::placeholder {
+    color: #888;
+  }
+  
+  .form-control:focus::placeholder {
+    color: transparent;
+  }
+  
+  .check-checkbox {
+    margin-right: 8px;
+  }
+  
+  .custom-input-label {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .d-grid {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .btnn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+    width: 100%; /* Make the button take full width */
+  }
+  
+  .btnn:hover {
+    background-color: #258cd1;
+  }
+  
+  .text-right {
+    margin-top: 16px;
+    color: #555;
+  }
+  
+  .text-right a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+ 
+  .lt.dark-mode {
+    background: linear-gradient(to right, #2c3e50, #34495e);
+    color: #fff;
+  }
+  
+  .lt.dark-mode .round1 {
+    background-color: rgba(44, 62, 76, 0.95);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .lt.dark-mode .form-control {
+    background-color: rgba(44, 62, 76, 0.8);
+    color: #fff;
+  }
+  
+  .lt.dark-mode .round {
+    background-color: rgba(44, 62, 76, 0.95);
+  }
+
+  .login-link-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .l1,
+  .l2 {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-right: 15px; /* Adjust the margin to create space between links */
+  }
+  
+  .l1:hover,
+  .l2:hover {
+    color: #258cd1;
+  }
+
+  .l11{
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-right:290px;
+    font-size:12px;
+    margin-top:-30px;
+  }

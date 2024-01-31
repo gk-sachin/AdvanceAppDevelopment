@@ -1,0 +1,97 @@
+
+:root {
+    --background-color: #fff;
+    --text-color: #333;
+    --input-bg: #f8f8f8;
+    --button-bg: #007bff;
+    --button-text: #fff;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+.hc{
+  padding: 50px;
+    margin-left: 635px;
+}
+
+ 
+  body.light-mode {
+    --background-color: #fff;
+    --text-color: #333;
+    --input-bg: #f8f8f8;
+    --button-bg: #007bff;
+    --button-text: #fff;
+  }
+  
+  
+  body.dark-mode {
+    --background-color: #1c1c1c;
+    --text-color: #fff;
+    --input-bg: #2c2c2c;
+    --button-bg: #333;
+    --button-text: #fff;
+  }
+  
+ 
+  input,
+  textarea,
+  button {
+    margin-top: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  @media (max-width: 768px) {
+    input,
+    textarea {
+      padding: 8px;
+    }
+  }
+  
+  /* Dark Mode Responsive Styles */
+  @media (max-width: 768px) {
+    body.dark-mode {
+      --background-color: #1c1c1c;
+      --text-color: #fff;
+      --input-bg: #2c2c2c;
+      --button-bg: #333;
+      --button-text: #fff;
+    }
+  }
+  
+  /* Extra Small Devices */
+  @media (max-width: 480px) {
+    input,
+    textarea {
+      padding: 6px;
+    }
+  }
+  
